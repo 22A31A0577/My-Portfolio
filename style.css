@@ -1,0 +1,522 @@
+#nav{
+    background-color:#F7F9F2;
+    height:10vh;
+}
+/* Navbar */
+.navbar-nav {
+    margin-left: 90px;
+    font-size: 15px;
+}
+.nav-link{
+    font-size: 16px;
+    color: black;
+}
+.nav-link:hover{
+    color: rgb(251, 110, 232);
+    zoom:1.2;
+}
+.navbar-brand:hover{
+    zoom:1.1;
+}
+.navbar-brand{
+    font-size: 20px;
+    color: rgb(251, 15, 224);
+    font-family: 'Times New Roman', Times, sans-serif;
+    animation-name: navp;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+}
+@keyframes navp{
+    0%{
+        color: rgb(251, 15, 224);
+        padding-bottom: 0.9rem;
+    }
+    50%{
+        color: rgb(77, 245, 10);
+        padding-top: 1rem;
+    }
+    100%{
+        color: rgb(9, 36, 242);
+        padding-bottom: 0.9rem;
+    }
+    
+}
+/* Home Section */
+#r1 {
+    height: 80vh;
+    background-color:#D1E9F6;
+}
+#wel:hover{
+    zoom:1.2;
+}
+/* Image */
+.rounded-circle {
+    height: 50vh;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 190px;
+}
+
+/* Text Section */
+#r1c2 {
+    padding-top: 100px;
+    padding-right: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#r1c2 h2 {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* About Section */
+#r2 {
+    background-color:#F6EACB;
+    height: 40vh;
+    text-align: center;
+}
+#r2 #atxt{
+    text-align: center;
+}
+/*skills*/
+#r3{
+    height:40vh;
+    background-color:#E8C5E5;
+    padding-left: 20px;
+}
+#ts{
+    padding-top: 2rem;
+}
+@keyframes txt{
+    0%{
+        color: blue;
+    }
+    50%{
+        color: rgb(255, 0, 238);
+    }
+    100%{
+        color: blue;
+    }
+}
+#ts h4{
+    font-size: 30px;
+    color: blue;
+}
+#ts ul li{
+    font-size: 20px;
+}
+#ps{
+    padding-top: 2rem;
+}
+#ps h4{
+    font-size: 30px;
+    color: blue;
+}
+#ps ul li{
+    font-size: 20px;
+}
+.imskil{
+    width:90%;
+    height:40vh;
+}
+/*-----------------projects-----------*/
+#r4{
+    background-color: #F1D3CE;
+    height:70vh;
+    padding-top: 4rem;
+}
+.card:hover{
+    zoom:1.1;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+}
+#pass{
+    height:52vh;
+}
+#pass #passimg{
+    height:25vh;
+}
+#rps{
+    height:52vh;
+}
+#rps #rpsimg{
+    height:25vh;
+}
+#cal{
+    height:52vh;
+}
+#cal #calimg{
+    height:25vh;
+}
+#web{
+    height:52vh;
+}
+#web #webimg{
+    height:25vh;
+}
+#cbtn{
+    margin-left: 60px;
+    margin-bottom: 1rem;
+}
+
+/*--------internships--------*/
+#r5{
+    background-color:#EECAD5;
+    height:60vh;
+}
+#r5 img{
+    height:50vh;
+    margin-top: 2rem;
+    animation-name: certif;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes certif{
+    0%{
+        border-color: blue;
+        border-width: 10px;
+        border-style: solid;
+    }
+    20%{
+        border-color: rgb(29, 205, 244);
+        border-width: 12px;
+        border-style: solid;
+    }
+    40%{
+        border-color: rgb(252, 6, 232);
+        border-width: 10px;
+        border-style: solid;
+    }
+    60%{
+        border-color: rgb(248, 137, 148);
+        border-width: 12px;
+        border-style: solid;
+    }
+    80%{
+        border-color: rgb(64, 243, 10);
+        border-width: 10px;
+        border-style: solid;
+    }
+    100%{
+        border-color: rgb(248, 243, 144);
+        border-width: 12px;
+        border-style: solid;
+    }
+}
+
+#r5 .cer1{
+    margin-left: 50px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 12px;
+}
+
+/*------------------------------------------------------------------------
+--------------------------------------------------------------------------------*/
+#r5 .cer2{
+    margin-left: 60px;
+}
+/*----------education------*/
+#r6{
+    background-color:#D1E9F6;
+    padding-top: 1rem;
+    height:50vh;
+}
+.table-responsive-md{
+    width:90%;
+}
+table{
+    text-align: center;
+    margin-left: 70px;
+    height: 40vh;
+    color: black;
+    margin-top: 1rem;
+}
+.table thead tr th{
+    background-color: rgb(204, 248, 248);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table tbody .edu td{
+    background-color: antiquewhite;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table tbody .clg td{
+    background-color: rgb(185, 244, 205);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table tbody .year td{
+    background-color: rgb(193, 207, 244);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*----------------achievements*-----------------*/
+#r7{
+    background-color:#F6EACB;
+    height:70vh;
+    padding-top: 1rem;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+    
+#r7 #ach{
+    border-style: solid;
+    border-color:#D1E9F6;
+    border-width: 7px;
+    background-color: aquamarine;
+    position: relative;
+    animation-name: achieves;
+    background-size: cover;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes achieves{
+    0%{
+        background-image: url(ppt.jpg); 
+    }
+    25%{
+        background-image: url(debt.jpg);   
+    }
+    50%{
+        background-image: url(princ.jpg);   
+    }
+    100%{
+        background-image: url(debt.jpg);
+    }
+}
+/*-----------contact-----------*/
+#contact{
+    background-color:#EECAD5 ;
+    text-align: center;
+    height:30vh;
+}
+#git{
+    color: #080808;
+}
+#lkn{
+    color: #080808;
+}
+#hac{
+    color: #080808;
+}
+    
+#contact a:hover i {
+    color: #0077b5; /* Change color to LinkedIn blue */
+    transform: scale(1.2); /* Slightly enlarge the icon */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Individual colors for each platform */
+#git:hover i {
+    color: #020202; /* GitHub dark color */
+}
+
+#hac:hover i {
+    color:#020202;; /* HackerRank green color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #contact h2 {
+        font-size: 32px; /* Adjust the heading size for tablets */
+    }
+
+    #contact p {
+        font-size: 18px;
+        padding-left: 0; /* Remove left padding for smaller screens */
+        text-align: center; /* Center the text */
+    }
+
+    #lkn {
+        margin-left: 0;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    #git {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 576px) {
+    #contact h2 {
+        font-size: 28px; /* Further reduce heading size for mobile */
+    }
+
+    #contact p {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+
+    #lkn, #git {
+        margin-left: 0;
+        display: inline-block; /* Ensure icons stay inline */
+    }
+
+    #contact i {
+        font-size: 1.8rem; /* Reduce icon size for smaller devices */
+    }
+}
+
+/* For Tablets (Portrait) and Mobile Devices */
+@media (max-width: 768px) {
+    #nav {
+        height: auto; /* Adjust nav height */
+    }
+    .navbar-nav {
+        margin-left: 0; /* Remove margin for smaller screens */
+        text-align: center; /* Center align the navbar items */
+    }
+    .navbar-nav .nav-link {
+        padding: 10px; /* Add some padding for touch targets */
+    }
+    #r1 {
+        height: auto; /* Adjust height for better fit */
+    }
+    .rounded-circle {
+        height: 40vh;
+        width: 80%; /* Adjust image size */
+        margin-left: auto;
+        margin-right: auto; /* Center the image */
+        display: block;
+    }
+    #r1c2 {
+        padding-top: 20px; /* Reduce padding for smaller screens */
+        padding-right: 20px; /* Adjust padding */
+        font-size: 20px; /* Reduce font size */
+    }
+    #r1c2 h2 {
+        font-size: 40px; /* Reduce heading size */
+    }
+    #r2, #r3, #r4, #r5, #r6, #r7 {
+        height: auto; /* Adjust height */
+        padding: 20px; /* Add padding for better spacing */
+    }
+    .table-responsive-md {
+        width: 100%; /* Full width for tables */
+        overflow-x: auto; /* Allow horizontal scrolling if needed */
+    }
+    table {
+        margin-left: 0; /* Remove margin */
+    }
+    .imskil {
+        width: 100%; /* Adjust width for better fit */
+        height: auto; /* Auto height */
+    }
+    #r5 img {
+        height: 40vh; /* Adjust image height */
+    }
+    .card {
+        width: 100%; /* Full width for cards */
+        margin-bottom: 2px;
+        height:55vh;
+    }
+    #r5 img{
+        width:90%;
+        align-items: center;
+    }
+    #r5 .col-md-6{
+        align-items: center;
+    }
+    .rounded .cer1{
+        align-items: center;
+        width:100%;
+        padding-right:140px;
+    }
+    .rounded .cer2{
+        align-items: center;
+        width:100%;
+        padding-right: 60px;
+        padding-right:140px;
+        
+
+    }
+    #contact {
+        padding: 20px; /* Add padding */
+    }
+}
+
+/* For Large Screens (Desktops) */
+@media (min-width: 1200px) {
+    .navbar-nav {
+        margin-left: 100px; /* Maintain margin for larger screens */
+    }
+    .rounded-circle {
+        height: 50vh;
+        width: 50%;
+        margin-left: 190px;
+    }
+    #r1c2 {
+        padding-top: 100px;
+        padding-right: 120px;
+        font-size: 30px;
+    }
+    #r1c2 h2 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 992px) { /* Medium devices (tablets) */
+    #r7 #ach {
+        height: 50vh; /* Adjust height for medium devices */
+    }
+}
+
+@media (max-width: 768px) { /* Small devices (phones) */
+    #r7 #ach {
+        height: 50vh;
+         /* Further adjust height for small devices */
+    }
+}
+
+@media (max-width: 576px) { /* Extra small devices (phones in portrait mode) */
+    #r7 #ach {
+        height: 30vh; /* Adjust height for very small devices */
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #contact h2 {
+        font-size: 32px;
+    }
+
+    #contact p {
+        font-size: 18px;
+        color: #080808;
+        text-align: center;
+    }
+
+    #contact a {
+        display: inline-block;
+        margin: 10px 5px; /* Add space around icons for better spacing */
+    }
+
+    #contact i {
+        font-size: 2rem; /* Reduce icon size for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    #contact h2 {
+        font-size: 28px;
+    }
+
+    #contact p {
+        font-size: 16px;
+        color: #080808;
+    }
+
+    #contact i {
+        font-size: 1.8rem; /* Further reduce icon size for smaller devices */
+    }
+}
+
+
+
+
+
